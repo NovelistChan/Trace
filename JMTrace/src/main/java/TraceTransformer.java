@@ -12,7 +12,7 @@ public class TraceTransformer implements ClassFileTransformer {
         System.out.println("Transforming " + className);
         ClassReader reader = new ClassReader(classfileBuffer);
         ClassWriter classWriter = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
-        ClassVisitor classVisitor = new PrintTraceVisitor(Opcodes.ASM5, classWriter);
+        ClassVisitor classVisitor = new PrintTraceClassVisitor(Opcodes.ASM5, classWriter);
         reader.accept(classVisitor, ClassReader.SKIP_DEBUG);
         return classWriter.toByteArray();
     }
