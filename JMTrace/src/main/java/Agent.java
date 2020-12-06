@@ -5,9 +5,6 @@ import java.security.ProtectionDomain;
 
 import javassist.ClassClassPath;
 import javassist.ClassPool;
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassVisitor;
-import jdk.internal.org.objectweb.asm.ClassWriter;
 
 
 public class Agent {
