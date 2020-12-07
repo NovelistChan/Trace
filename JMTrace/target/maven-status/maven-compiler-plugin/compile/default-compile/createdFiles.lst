@@ -1,5 +1,5 @@
-PrintTraceClassVisitor$PrintTraceMethodVisitor.class
 Agent.class
 PrintTrace.class
 TraceTransformer.class
+PrintTraceMethodVisitor.class
 PrintTraceClassVisitor.class

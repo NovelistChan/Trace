@@ -2,3 +2,4 @@
 /Users/novelistchan/Documents/Trace/JMTrace/src/main/java/Agent.java
 /Users/novelistchan/Documents/Trace/JMTrace/src/main/java/PrintTrace.java
 /Users/novelistchan/Documents/Trace/JMTrace/src/main/java/PrintTraceClassVisitor.java
+/Users/novelistchan/Documents/Trace/JMTrace/src/main/java/PrintTraceMethodVisitor.java
